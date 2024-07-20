@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --swidth: 100vw;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img {
+  width: 10rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+#search {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  max-width: 800px;
+  min-width: 600px;
+  text-align: center;
+}
+
+#query {
+  height: 200;
+  margin-bottom: 2rem;
+}
+
+#engine {
+  width: 100%; 
+  height: 100%;
+  display: grid;
+  grid: repeat(2, (var(--swidth)/ 2)) / auto-flow var(--swidth);
+}
+
+#engine > button {
+  width: var(--swidth)/4;
+  height: var(--swidth) / 4;
+}

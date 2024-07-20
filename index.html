@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div id="search">
+      <h1>Search</h1>
+      <input type="text" id="query">
+      <div id="engine">
+        <button onclick="google(userQuery())">
+          <img src="https://imgs.search.brave.com/35yJ0AAz887gh9V1WNVzv5WiPSmUbdJJlIp-Dp_Rabg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ3ZjljYmNlZjEw/MTRjMGI1ZTQ4Yzgu/cG5n" alt="google logo" >
+        </button>
+          <button onclick="duckduckgo(userQuery())">
+            <img src="https://imgs.search.brave.com/PQxUgxds8fRzVcCvnMRDIshLhDCiYECUkwJbdZEYjGw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ3ZjMyZmNlZjEw/MTRjMGI1ZTQ4Nzcu/cG5n" alt="duckduckgo logo" >
+          </button>
+            <button onclick="youtube(userQuery())">
+              <img src="https://imgs.search.brave.com/0qMPlCu8nlUDwyrDPdx4DZ-kg032GjtkDUIAkI1dYhs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9mcmVl/bG9nb3BuZy5jb20v/aW1hZ2VzL2FsbF9p/bWcvMTY1NjUwMTQ2/NXlvdXR1YmUtcG5n/LnBuZw" alt="youtube logo" >
+            </button>
+              <button onclick="wikipedia(userQuery())">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png?20140817194256" alt="youtube logo" >
+              </button>
+      </div>
+    </div>
+  </body>
+</html>
